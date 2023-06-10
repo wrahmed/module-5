@@ -13,7 +13,7 @@ body {
 }
 
 #logo-img {
-  background: url('./food-logo.jpg') no-repeat;
+  background: url('./images/restaurant-logo.png') no-repeat;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -36,7 +36,6 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-
 .navbar-brand p { /* Kosher cert */
   color: #000;
   text-transform: uppercase;
@@ -46,7 +45,6 @@ body {
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
 }
-
 
 #nav-list {
   margin-top: 10px;
@@ -244,7 +242,7 @@ h3.menu-item-title {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url('../logo_medium.jpg') no-repeat;
+    background: url('/images/restaurant-logo.png') no-repeat;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
